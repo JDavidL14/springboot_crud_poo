@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: crud-empleado
+
+datasource:
+  my-connection:
+    jdbc-url: jdbc:postgresql://localhost:5432/r_empleados
+    username: josue
+    password: josue
+    maximum-pool-size: 10
+    pool-name: "crud-pool"
+    auto-commit: true
